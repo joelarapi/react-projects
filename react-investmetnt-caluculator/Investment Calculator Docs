@@ -9,22 +9,21 @@ Installation
 To run this application locally, follow these steps:
 
 Clone the repository:
+git clone https://github.com/joel-arapi/react-investment-calculator.git
 
 
-git clone https://github.com/your-username/investment-calculator.git
 Navigate to the project directory:
-
-
 cd investment-calculator
+
+
 Install the required dependencies:
-
-
 npm install
+
+
 Start the development server:
-
-
 npm run dev
 The application should now be running at http://localhost:5174.
+
 
 Usage
 Enter the initial investment amount in the designated input field.

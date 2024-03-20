@@ -1,0 +1,46 @@
+
+
+Form Validation with JWT Authentication
+This project is a form validation implementation built using React and handling JWT authentication.
+It demonstrates how to validate form inputs and securely manage access tokens and refresh tokens for authenticated users.
+
+Features
+JWT authentication with access token and refresh token management
+Secure communication with a backend API
+
+Installation
+To run this application locally, follow these steps:
+
+Clone the repository:
+git clone https://github.com/joel-arapi/form-validation.git
+
+Navigate to the project directory:
+cd form-validation
+
+Install the required dependencies:
+npm install
+
+Start the development server:
+npm run dev
+The application should now be running at http://localhost:5174.
+
+Usage
+Open the application in your web browser.
+Fill out the form with the required information.
+If there are any validation errors, the form will display appropriate error messages.
+Once the form is valid, the application will send a request to the backend API for authentication.
+Upon successful authentication, the server will respond with an access token and a refresh token.
+The application will store the access token and refresh token securely and use them for subsequent API requests.
+If the access token expires, the application will automatically use the refresh token to obtain a new access token.
+Technologies Used
+React
+JavaScript
+JWT (JSON Web Tokens)
+Axios (for HTTP requests)
+HTML
+CSS
+
+
+Acknowledgments
+YouTube tutorial By Dave Gray : 
+https://www.youtube.com/watch?v=nI8PYZNFtac&list=PL0Zuz27SZ-6PRCpm9clX0WiBEMB70FWwd&index=4&t=477s
