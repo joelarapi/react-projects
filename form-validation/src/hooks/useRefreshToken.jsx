@@ -5,7 +5,7 @@ const useRefreshToken = () => {
     const { setAuth } = useAuth();
 
     const refresh = async () => {
-        const response = await axios.get('https://api-techdents-tst.azurewebsites.net/api/v1/authentications/login/refresh', {
+        const response = await axios.get('/refresh', {
             withCredentials: true
         });
         setAuth(prev => {
