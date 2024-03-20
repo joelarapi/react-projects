@@ -1,0 +1,42 @@
+This is a simple investment calculator built with React. It allows users to calculate their potential investment returns based on their initial investment amount, annual interest rate, and investment duration.
+
+Features
+User-friendly interface for inputting investment details
+Real-time calculation of potential investment returns
+Displays the final investment value after the specified duration
+Responsive design for use on different devices
+Installation
+To run this application locally, follow these steps:
+
+Clone the repository:
+
+
+git clone https://github.com/your-username/investment-calculator.git
+Navigate to the project directory:
+
+
+cd investment-calculator
+Install the required dependencies:
+
+
+npm install
+Start the development server:
+
+
+npm run dev
+The application should now be running at http://localhost:5174.
+
+Usage
+Enter the initial investment amount in the designated input field.
+Enter the annual investment rate.
+Enter the investment duration in years.
+The calculator will automatically update and display the potential investment value after the specified duration.
+Technologies Used
+React
+JavaScript
+HTML
+CSS
+
+
+Credits to :
+Maximilian Schwarzmüller for the Course provided through the Udemy Platform
