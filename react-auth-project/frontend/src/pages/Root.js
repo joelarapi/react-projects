@@ -2,6 +2,7 @@ import { Outlet, useLoaderData, useNavigation, useSubmit } from 'react-router-do
 
 import MainNavigation from '../components/MainNavigation';
 import { useEffect } from 'react';
+import { getTokenDuration } from '../util/auth';
 
 function RootLayout() {
   // const navigation = useNavigation();
@@ -19,7 +20,7 @@ function RootLayout() {
     }
 
 
-    const tokenDuration = getTokenDuration();
+    const tokenDuration = getTokenDuration();         //token duration function is defined in the auth.js file 
     console.log(tokenDuration)
 
     setTimeout(()=> {
